@@ -1,1 +1,1 @@
-# Authentication - JWT Register, Login, Logout, Me
+# Authentication Feature - JWT Register Login Logout Me
