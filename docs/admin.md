@@ -1,1 +1,1 @@
-# Admin - Gestion des utilisateurs et offres
+# Admin Feature - Gestion des utilisateurs et offres
