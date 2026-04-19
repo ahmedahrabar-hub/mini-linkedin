@@ -233,4 +233,4 @@ public function handle(Request $request, Closure $next, string ...$roles)
 ## Collection Postman
 La collection Postman est disponible dans le dossier `postman/`.
 
-**Note :** Les fichiers JSON ont été écrasés accidentellement. Par conséquent, des captures d’écran ont été fournies comme remplacement pour chaque scénario de méthode.
+<span style="color:red">**Note :** Les fichiers JSON ont été écrasés accidentellement. Par conséquent, des captures d’écran ont été fournies comme remplacement pour chaque scénario de méthode.</span>
