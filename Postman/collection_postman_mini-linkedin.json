@@ -1,0 +1,59 @@
+{
+  "info": {
+    "_postman_id": "b8997cd7-e8d1-446b-af27-d70f78e73d21",
+    "name": "New Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "52492642",
+    "_collection_link": "https://go.postman.co/collection/52492642-b8997cd7-e8d1-446b-af27-d70f78e73d21?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "mini-LinkedIn",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgzMDAvYXBpL2F1dGgvbG9naW4iLCJpYXQiOjE3NzUwNDI2NDEsImV4cCI6MTc3NTA0NjI0MSwibmJmIjoxNzc1MDQyNjQxLCJqdGkiOiJ4czNPakF4WEtiZ05qTG9LIiwic3ViIjoiMSIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.PiUT9iVFULZ438wC38J4JoZfQaNyRc39LYCu9L_p7wY",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"montant\": 200\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8300/api/admin/wallet/1/debit",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8300",
+          "path": [
+            "api",
+            "admin",
+            "wallet",
+            "1",
+            "debit"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
