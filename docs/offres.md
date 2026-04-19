@@ -1,1 +1,1 @@
-# Offres - CRUD offres avec pagination et filtres
+# Offres Feature - CRUD offres avec pagination et filtres
